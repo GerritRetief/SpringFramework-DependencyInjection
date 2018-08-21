@@ -7,6 +7,7 @@ public class GetterGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
+        System.out.println("In GetterGreetingService.sayGreeting()");
         return "Hello from GetterGreetingService";
     }
 }
